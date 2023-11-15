@@ -69,4 +69,4 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "importmap-rails", "~> 1.2"
+

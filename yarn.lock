@@ -112,6 +112,11 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.19.5.tgz#faad84c41ba12e3a0acb52571df9bff37bee75f6"
   integrity sha512-czTrygUsB/jlM8qEW5MD8bgYU2Xg14lo6kBDXW6HdxKjh8M5PzETGiSHaz9MtbXBYDloHNUAUW2tMiKW4KM9Mw==
 
+"@hotwired/stimulus-webpack-helpers@^1.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@hotwired/stimulus-webpack-helpers/-/stimulus-webpack-helpers-1.0.1.tgz#4cd74487adeca576c9865ac2b9fe5cb20cef16dd"
+  integrity sha512-wa/zupVG0eWxRYJjC1IiPBdt3Lruv0RqGN+/DTMmUWUyMAEB27KXmVY6a8YpUVTM7QwVuaLNGW4EqDgrS2upXQ==
+
 "@hotwired/stimulus@^3.2.2":
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@hotwired/stimulus/-/stimulus-3.2.2.tgz#071aab59c600fed95b97939e605ff261a4251608"
@@ -160,6 +165,11 @@
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-7.1.2.tgz#d261ff4b72844f5af496671346ec478798f4ac2c"
   integrity sha512-KGziTZfbmGm8/fHOpj515xupbYU+49hsp4etfdpoDJ/CEY2bRZR0cyFcJkpK6n0t/sxOHNWY6bo9vSgXZvT7Mg==
+
+"@swc/helpers@^0.2.13":
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.2.14.tgz#20288c3627442339dd3d743c944f7043ee3590f0"
+  integrity sha512-wpCQMhf5p5GhNg2MmGKXzUNwxe7zRiCsmqYsamez2beP7mKPCSiu+BjZcdN95yYSzO857kr0VfQewmGpS77nqA==
 
 abbrev@1:
   version "1.1.1"
@@ -307,6 +317,14 @@ dir-glob@^3.0.1:
   integrity sha512-WkrWp9GR4KXfKGYzOLmTuGVi1UWFfws377n9cc55/tb6DuqyF6pcQ5AbiHEshaDpY9v6oaSr2XCDidGmMwdzIA==
   dependencies:
     path-type "^4.0.0"
+
+dropzone@^6.0.0-beta.2:
+  version "6.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/dropzone/-/dropzone-6.0.0-beta.2.tgz#098be8fa84bdc08674cf0b74f4c889e2679083d6"
+  integrity sha512-k44yLuFFhRk53M8zP71FaaNzJYIzr99SKmpbO/oZKNslDjNXQsBTdfLs+iONd0U0L94zzlFzRnFdqbLcs7h9fQ==
+  dependencies:
+    "@swc/helpers" "^0.2.13"
+    just-extend "^5.0.0"
 
 electron-to-chromium@^1.4.535:
   version "1.4.583"
@@ -485,6 +503,11 @@ jsonfile@^6.0.1:
     universalify "^2.0.0"
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+just-extend@^5.0.0:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/just-extend/-/just-extend-5.1.1.tgz#4f33b1fc719964f816df55acc905776694b713ab"
+  integrity sha512-b+z6yF1d4EOyDgylzQo5IminlUmzSeqR1hs/bzjBNjuGras4FXq/6TrzjxfN0j+TmI0ltJzTNlqXUMCniciwKQ==
 
 lilconfig@^2.0.5:
   version "2.1.0"
@@ -717,6 +740,14 @@ slash@^5.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+stimulus@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/stimulus/-/stimulus-3.2.2.tgz#a2e955f43e12e2e5784b175d4df5517ef678aa68"
+  integrity sha512-sEGK0ofeMuW+B2oPLTigCqxl47P9vRfZxeqzY5Hk1u0QPWS8DZhW+VOEEyngtzdHM+MutXKGBT8BkUKoA0060Q==
+  dependencies:
+    "@hotwired/stimulus" "^3.2.2"
+    "@hotwired/stimulus-webpack-helpers" "^1.0.0"
 
 string-width@^4.1.0, string-width@^4.2.0, string-width@^4.2.3:
   version "4.2.3"
