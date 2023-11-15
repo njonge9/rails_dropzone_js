@@ -8,12 +8,13 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
-    <%= javascript_importmap_tags %>
-    -# I'm loading dropzone css here as a muppet. Feel free to place it to sprocket asset folder or use content_for tag
+    <%# -# I'm loading dropzone css here as a muppet. Feel free to place it to sprocket asset folder or use content_for tag %>
     <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
